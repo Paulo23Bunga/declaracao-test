@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+.rodape{
+  height: 36px; background-color: #143469;
+}
+.sociais{
+  font-size: 21px; color: #143469;
+}
+.carta{
+  font-size: 31px; color: #143469;
+}
+#rodape{
+  margin-top: 3em;
+}
+.lista{
+  margin-top: 3em;
+}
+.aplica{
+  height: 36px; background-color: #143469;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.bx {
+  display: inline !important;
+}
+form label{
+  color: #143469 !important;
+  font-weight: bold;
+}
+p{
+margin-top: -1px;
+  margin-bottom: 0rem;
+ color: #143469 !important;
+}
+
+#labelText{
+background-color: #ebf6ff !important;
+}
+
+#inputPassword{
+background-color: #edf7ff !important;
+}
+form-control{
+background-color: #edf7ff !important;
+}
+.lista input{
+border: none;
+border-bottom: #143469 solid 2px;
+border-radius: 0 !important;
+background-color: transparent !important;
+}
+
+  .gerador{
+position: fixed;
+border-radius: 100%;
+background-color: #143469;
+border-color: #111;
+}
+.imprime-gera{
+  top: 50px;
+left: 25px;
+}
+  .pdf-gera{
+
+bottom: 50px;
+right: 25px;
+
+}
+.csv-gera{
+  bottom: 50px;
+left: 25px;
+}
+.gerador i{
+font-size: 21px !important;
+}
+#originalText{
+position: absolute;
+left: 15%;
+top: 40%;
+color: #143469;
+}
+legend{
+color: #143469;
+
+}
+.reciboRem{
+
+font-size: 35px;
+background-color:  #143469;
+height: 2px;
+margin-bottom: 12px;
+}
+h6{
+color:  #143469;
+}
+.suplem-thead{
+border-top: solid 2px #143469!important;
+border-bottom: solid 1px #143469!important;
+}
+.suplem-lista{
+border-top: solid 2px #143469!important;
+width: 100%;
+}
+th, td{
+color:  #143469;
+}
+th, td{
+position: relative !important;
+}
+.lista-suplem th::before{
+content: "";
+position: absolute;
+bottom: 10px;
+border-bottom: solid 1px #143469!important;
+width: 80%;
+opacity: 50%;
+}
+.lista-suplem td::before{
+content: "";
+position: absolute;
+bottom: 10px;
+border-bottom: solid 1px #143469!important;
+width: 90%;
+opacity: 50%;
+}
+.tb-total{
+border-top: solid 2px #143469!important;
+border-bottom: solid 2px #143469!important;
+}
+.total-tb th::before{
+content: "";
+position: absolute;
+bottom: 0px;
+border-bottom: solid 2px #143469!important;
+width: 90%;
+}
+.table-responsive{
+  overflow: hidden !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
